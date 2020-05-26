@@ -6,7 +6,7 @@
 [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 07. Intermediate JavaScript  
 Modules
 
-### Description of the project by [CODE]CADEMY
+### Description of the project by [CODE]CADEMY PRO
 WorkAround is a human resources program that returns basic information about an employee, based on salary data. Using WorkAround, one can use an employee’s salary data to:  
 - return the cadre of the of the employee, in other words, whether this employee is entry level, mid level, or senior level.  
 - calculate employee tax rates  

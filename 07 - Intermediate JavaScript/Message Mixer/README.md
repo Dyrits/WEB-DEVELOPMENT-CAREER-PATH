@@ -6,7 +6,7 @@
 [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 07. Intermediate JavaScript  
 Modules
 
-### Description of the project by [CODE]CADEMY
+### Description of the project by [CODE]CADEMY PRO
 Message Mixer is a messaging service that allows you to perform an action on input text and display the output of that behavior to the console. For example, with the current functions defined in Message Mixer, you can:  
 - count the characters in a message  
 - capitalize the first character of words  

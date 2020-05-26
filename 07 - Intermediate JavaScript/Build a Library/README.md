@@ -6,7 +6,7 @@
 [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 07. Intermediate JavaScript  
 Classes
 
-### Description of the project by [CODE]CADEMY
+### Description of the project by [CODE]CADEMY PRO
 Congratulations, you’ve passed the grueling rigmarole of librarian school and have become head librarian at your local Books-‘N-Stuff.
 
 Just as you sit down, eager to utilize all those skills you learned in “Lib 203 - Shushing: How to Maintain Order While Spitting”, you realize you’re still using index cards to handle everything.

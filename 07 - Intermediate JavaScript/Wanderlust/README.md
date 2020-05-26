@@ -6,7 +6,7 @@
 [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 07. Intermediate JavaScript  
 Requests
 
-### Description of the project by [CODE]CADEMY
+### Description of the project by [CODE]CADEMY PRO
 Using `fetch`, `async`, and `await`, you’ll request information from the [Foursquare API](https://developer.foursquare.com/) and [OpenWeather API](https://openweathermap.org/current) to create a travel website.  
 
 Before you begin, you’ll need to register for developer accounts for both of the APIs above. They’re both free.  
