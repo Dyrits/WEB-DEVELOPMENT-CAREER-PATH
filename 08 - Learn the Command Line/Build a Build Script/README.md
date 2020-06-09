@@ -3,7 +3,7 @@
 ## More about this project
 
 ### Related course
-[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 08. Learn the Command Line  
+[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 8. Learn the Command Line  
 Bash Scripting
 
 ### Description of the project by [CODE]CADEMY PRO

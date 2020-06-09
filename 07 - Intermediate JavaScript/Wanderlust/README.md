@@ -3,7 +3,7 @@
 ## More about this project
 
 ### Related course
-[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 07. Intermediate JavaScript  
+[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 7. Intermediate JavaScript  
 Requests
 
 ### Description of the project by [CODE]CADEMY PRO
