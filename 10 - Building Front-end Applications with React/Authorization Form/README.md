@@ -18,7 +18,8 @@ Let’s get started!
 - React
 
 ### Details | Comments
-- This project has been made following specific instructions. A few premade elements have been provided by the related course.
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.  
+The Contact.js file can't be run by itself.
 
 ### Status
 Completed 
