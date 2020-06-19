@@ -1,17 +1,17 @@
-# Authorization Form
+# Random Color Picker
 
 ## More about this project
 
 ### Related course
 [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 10. Building Front-end Applications with React
-React Components
+Components Interacting
 
 ### Description of the project by [CODE]CADEMY PRO
-A client just called you to say that they love their new website! There’s only one problem: they don’t like how their contact page displays their personal information for all to see.
+In this project, we’ll build a program that helps designers think of new color schemes.
 
-They’ve asked you to hide their website’s contact page behind a password form. In this project, you’ll accomplish this by using a React component to set up a simple authorization layer.
+Our program will set the screen’s background to a random color. Clicking a button will refresh to a new, random color. [Random generators](https://en.wikipedia.org/wiki/Oblique_Strategies) are a well-known tool for breaking a creative rut.
 
-Let’s get started!
+Let’s get started! 
 
 ### Technologies | Libraries | Frameworks | Tools  
 - JavaScript
@@ -25,7 +25,7 @@ The files need React to be ran.
 Completed 
 
 #### Last update
-09/06/2020
+19/06/2020
 
 #### Last update (README.md)
-09/06/2020
+19/06/2020
