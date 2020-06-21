@@ -28,7 +28,7 @@ You can find this project on CodePen.
 URL: https://codepen.io/Dyrits/full/eYNagWe
 
 ### Status
-Completed / Not started / In progress / On hold
+Completed
 
 #### Last update
 05/05/2020
