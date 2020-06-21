@@ -38,6 +38,26 @@ Finally, a few notes before getting started:
 
 Let’s get started!
 </details>
+<details markdown="block">
+<summary>Passing Information</summary>
+
+#### Passing Information
+
+Welcome to the second part of the Ravenous project! Take a minute to review what you accomplished in the first part of this project. You:
+- Used `create-react-app` to start your project
+- Built all of the components you’ll need for the remainder of the project
+- Simulated what Ravenous should look like after returning search results
+
+In this project, you’ll complete the second part of Ravenous: **Passing Information to Components**.
+
+So far, you’ve hard coded business information and rendered it manually. Now we’ll focus on how information (like business information) can pass from component to component with less hard coding. This is crucial as we build towards the goal of constructing a Yelp-like clone.
+
+A few notes before getting started:
+- You should expect to spend more than 1 day on this specific project. It’s OK if it is not all finished in one day.
+- If you don’t understand how to implement a certain part of the project, we’ll provide guidance as needed. However, you should expect to search Codecademy for the exercises that will provide you with the relevant information.
+
+Let’s get started!
+</details>
 
 ### Technologies | Libraries | Frameworks | Tools  
 - JavaScript
@@ -50,10 +70,11 @@ Let’s get started!
 On going 
 
 #### Last update
-13/06/2020
+21
+/06/2020
 
 #### Last update (README.md)
-13/06/2020
+21/06/2020
 
 # React
 
