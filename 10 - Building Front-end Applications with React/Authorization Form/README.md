@@ -19,13 +19,12 @@ Let’s get started!
 
 ### Details | Comments
 - This project has been made following specific instructions. A few premade elements have been provided by the related course.  
-The files need React to be ran.
 
 ### Status
 Completed 
 
 #### Last update
-09/06/2020
+21/06/2020
 
 #### Last update (README.md)
-09/06/2020
+21/06/2020
