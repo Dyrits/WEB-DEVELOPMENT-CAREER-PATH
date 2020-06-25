@@ -20,6 +20,10 @@ Let’s get started!
 ### Details | Comments
 - This project has been made following specific instructions. A few premade elements have been provided by the related course.  
 
+### CodePen
+You can find this project on CodePen.  
+URL: https://codepen.io/Dyrits/full/KKVqQPX
+
 ### Status
 Completed 
 
