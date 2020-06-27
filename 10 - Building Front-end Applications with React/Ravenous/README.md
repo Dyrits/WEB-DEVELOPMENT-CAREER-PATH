@@ -3,8 +3,7 @@
 ## More about this project
 
 ### Related course
-[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 10. Building Front-end Applications with React
-React Components
+[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 10. Building Front-end Applications with React  
 
 ### Description of the project by [CODE]CADEMY PRO
 
@@ -58,6 +57,25 @@ A few notes before getting started:
 
 Let’s get started!
 </details>
+<details markdown="block">
+<summary>Setting the Search Bar's State</summary>
+
+#### Setting the Search Bar's State
+
+Welcome to the third part of the Ravenous project! Take a minute to review what you accomplished in the second part of this project. You:
+- Moved business information to the container component (`App`)
+- Passed information from parent components (`App`) to child components (`BusinessList`, `Business`)
+
+In this project, you’ll complete the third part of Ravenous: **Setting the State of Ravenous Components**.
+
+Certain components will need to handle changes in their state. For example, the sorting options in the search bar will change (and we’ll need to know their state when communicating with the Yelp API). The same goes for the two input elements. These are the kinds of changes you’ll handle in this project.
+
+A few notes before getting started:
+- You should expect to spend some time on this project. Don’t worry if you don’t complete it in one sitting.
+ - If you don’t understand how to implement a certain part of the project, we’ll try to provide guidance as needed via hints. However, you may need to look back at previous lessons that will provide you with the relevant information.
+
+Let’s get started!
+</details>
 
 ### Technologies | Libraries | Frameworks | Tools  
 - JavaScript
@@ -70,11 +88,12 @@ Let’s get started!
 On going 
 
 #### Last update
-21
-/06/2020
+27/06/2020
 
 #### Last update (README.md)
-21/06/2020
+27/06/2020
+
+---
 
 # React
 
