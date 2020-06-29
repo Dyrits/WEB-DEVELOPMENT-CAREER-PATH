@@ -41,7 +41,6 @@ Let’s get started!
 <summary>Passing Information</summary>
 
 #### Passing Information
-
 Welcome to the second part of the Ravenous project! Take a minute to review what you accomplished in the first part of this project. You:
 - Used `create-react-app` to start your project
 - Built all of the components you’ll need for the remainder of the project
@@ -61,7 +60,6 @@ Let’s get started!
 <summary>Setting the Search Bar's State</summary>
 
 #### Setting the Search Bar's State
-
 Welcome to the third part of the Ravenous project! Take a minute to review what you accomplished in the second part of this project. You:
 - Moved business information to the container component (`App`)
 - Passed information from parent components (`App`) to child components (`BusinessList`, `Business`)
@@ -73,6 +71,25 @@ Certain components will need to handle changes in their state. For example, the 
 A few notes before getting started:
 - You should expect to spend some time on this project. Don’t worry if you don’t complete it in one sitting.
  - If you don’t understand how to implement a certain part of the project, we’ll try to provide guidance as needed via hints. However, you may need to look back at previous lessons that will provide you with the relevant information.
+
+Let’s get started!
+</details>
+<details markdown="block">
+<summary>Interacting with the Yelp API</summary>
+
+#### Interacting with the Yelp API
+Welcome to the fourth and final part of the Ravenous project! Take a minute to review what you accomplished in the third part of this project. You:
+- Set the state of search bar elements
+- Simulated a search query
+
+In this project, you’ll complete the fourth part of Ravenous: Interacting with the Yelp API.
+
+So far, Ravenous is mostly static. Clicking on the “Let’s Go” button doesn’t retrieve results from the Yelp API. We’ll need that functionality to complete Ravenous. This project will ask that you build this functionality.
+
+A few notes before getting started:
+- Portions of this project will need to be completed on the Yelp website (developer documentation). You should expect to use the documentation independently to help you complete this project.
+- You should expect to spend more than 1 day on this specific project. It’s OK if it is not all finished in one day.
+- If you don’t understand how to implement a certain part of the project, we’ll provide guidance as needed. However, you should expect to search Codecademy for the exercises that will provide you with the relevant information.
 
 Let’s get started!
 </details>
@@ -88,10 +105,10 @@ Let’s get started!
 On going 
 
 #### Last update
-27/06/2020
+29/06/2020
 
 #### Last update (README.md)
-27/06/2020
+29/06/2020
 
 ---
 
