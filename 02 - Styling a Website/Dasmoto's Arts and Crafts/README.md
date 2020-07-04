@@ -1,5 +1,12 @@
-## [CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH > Styling a Website > Dasmoto's Arts and Crafts
-### Description of the project by [code]cademy
+# Dasmoto's Arts and Crafts
+
+## More about this project
+
+### Related course
+[CODE]CADEMY PRO | WEB DEVELOPMENT CAREER PATH: 2. Styling a Website
+Intro to Local Website Development
+
+### Description of the project by [CODE]CADEMY PRO
 In this project, you’ll build a simple website for a fictional arts and crafts store using the tools on your own computer. This project will provide you with less guidance than previous projects. You should expect to use the internet, Codecademy, and other resources when you encounter a problem that you cannot easily solve.
 
 At a high-level, this project will require the following:  
@@ -18,7 +25,24 @@ The rest of the page’s styling (font sizes, colors, etc.) is outlined in the f
 
 Use the website to the right and the resources above to guide you through the project.
 
-### About this project
-#### CodePen:
+### Technologies | Libraries | Frameworks | Tools  
+- HTML
+- CSS
+
+### Details | Comments
+- This project has been made following specific instructions. A few premade elements have been provided by the related course.
+
+### CodePen
 You can find this project on CodePen.  
 URL: https://codepen.io/Dyrits/full/BaoBbaV
+
+### Status
+Completed
+
+#### Last update
+08/04/2020
+
+#### Last update (README.md)
+04/07/2020 
+
+
