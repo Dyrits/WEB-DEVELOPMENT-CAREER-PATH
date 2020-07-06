@@ -3,7 +3,7 @@
 ## About this project
 
 ### Related course
-[ode]cademy / PRO | Web Development ~ 10. Building Front-end Applications with React  
+[code]cademy / PRO | Web Development ~ 10. Building Front-end Applications with React  
 Jamming
 
 ### Description (from [code]cademy / PRO)
