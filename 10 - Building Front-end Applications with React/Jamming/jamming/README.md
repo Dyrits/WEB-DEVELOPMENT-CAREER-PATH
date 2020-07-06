@@ -23,7 +23,7 @@ Good luck!
 This project has been made from scratch following specific instructions. Several elements have been directly provided by the related course.
 
 ### Status
-In progress (V0.39)
+In progress (V0.55)
 
 #### Last update
 06/07/2020

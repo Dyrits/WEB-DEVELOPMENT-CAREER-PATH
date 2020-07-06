@@ -1,5 +1,4 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 
 // Components
 import SearchBar from "../SearchBar/SearchBar";
@@ -11,7 +10,7 @@ import './App.css';
 import SearchResults from "../SearchResults/SearchResults";
 import Playlist from "../Playlist/Playlist";
 
-class App extends React.Component () {
+class App extends Component () {
   constructor(props) {
     super(props);
     this.state = {
@@ -25,6 +24,22 @@ class App extends React.Component () {
     }
   }
 
+  // Arrow function for binding~
+  addTrack = trackToAdd => {
+    if (this.state.playListTracks[trackToAdd.id]) { return; }
+    let updatedPlayListTracks = this.state.playListTracks;
+    updatedPlayListTracks.push(trackToAdd);
+    this.setState({playListTrack: updatedPlayListTracks})
+  }
+
+  // Arrow function for binding~
+  removeTrack = trackToRemove => {
+    let updatedPlayListTracks = this.state.playListTracks;
+    updatedPlayListTracks = updatedPlayListTracks.filter(track => track.id !== trackToRemove.id);
+    this.setState({playListTrack: updatedPlayListTracks});
+  }
+
+
   render() {
     return (
       <div>
@@ -32,8 +47,8 @@ class App extends React.Component () {
         <div className="App">
           <SearchBar />
           <div className="App-playlist">
-            <SearchResults searchResults={this.state.searchResults}/>
-            <Playlist playListName={this.state.playlistName} playListTracks={this.state.playListTracks} />
+            <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults} />
+            <Playlist onRemove={this.removeTrack} playListName={this.state.playlistName} playListTracks={this.state.playListTracks} />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import React from "react";
 // Stylesheet
 import "./SearchBar.css";
 
-function SearchBar() {
+function SearchBar(props) {
   return (
     <div className="SearchBar">
     <input placeholder="Enter A Song, Album, or Artist"/>
