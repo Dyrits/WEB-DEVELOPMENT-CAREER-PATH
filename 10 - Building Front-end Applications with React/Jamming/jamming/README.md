@@ -20,10 +20,10 @@ Good luck!
 - React
 
 ### Details | Comments
-This project has been made from scratch following specific instructions provided by the related course.
+This project has been made from scratch following specific instructions. Several elements have been directly provided by the related course.
 
 ### Status
-In progress (V0.07)
+In progress (V0.22)
 
 #### Last update
 06/07/2020
