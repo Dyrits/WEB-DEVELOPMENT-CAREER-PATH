@@ -20,3 +20,5 @@ function Track(props) {
     </div>
   );
 }
+
+export default Track;

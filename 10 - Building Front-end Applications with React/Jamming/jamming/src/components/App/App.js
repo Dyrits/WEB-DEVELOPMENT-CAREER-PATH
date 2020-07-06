@@ -6,13 +6,22 @@ import SearchBar from "../SearchBar/SearchBar";
 
 // Stylesheet
 import './App.css';
+
+// Components
 import SearchResults from "../SearchResults/SearchResults";
+import Playlist from "../Playlist/Playlist";
 
 class App extends React.Component () {
   constructor(props) {
     super(props);
     this.state = {
-      searchResults: []
+      searchResults: [
+        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest"}
+      ],
+      playlistName: "PlayListTest",
+      playListTracks: [
+        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest"}
+      ]
     }
   }
 
@@ -21,10 +30,10 @@ class App extends React.Component () {
       <div>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
-          <!-- Add a SearchBar component -->
+          <SearchBar />
           <div className="App-playlist">
             <SearchResults searchResults={this.state.searchResults}/>
-            <!-- Add a Playlist component -->
+            <Playlist playListName={this.state.playlistName} playListTracks={this.state.playListTracks} />
           </div>
         </div>
       </div>
