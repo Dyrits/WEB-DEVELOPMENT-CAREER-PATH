@@ -44,7 +44,12 @@ class App extends Component {
 
   // Arrow function for binding~
   savePlaylist = () => {
-    const tracksURIs = this.state.playlistTrack.map(track => track.uri);
+    const tracksURIs = this.state.playlistTracks.map(track => track.uri);
+  }
+
+  // Arrow function for binding~
+  search = term => {
+    console.log(term);
   }
 
   render() {
@@ -52,7 +57,7 @@ class App extends Component {
       <div>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
-          <SearchBar />
+          <SearchBar onSearch={this.search} />
           <div className="App-playlist">
             <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults} />
             <Playlist onNameChange={this.updatePlaylistName} onSave={this.savePlaylist} onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
