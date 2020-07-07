@@ -13,11 +13,11 @@ class App extends Component {
     super(props);
     this.state = {
       searchResults: [
-        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest"}
+        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest", uri: "URITest"}
       ],
       playlistName: "PlayListTest",
       playlistTracks: [
-        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest"}
+        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest", uri: "URITest"}
       ]
     }
   }
@@ -42,6 +42,11 @@ class App extends Component {
     this.setState({playlistName: name});
   }
 
+  // Arrow function for binding~
+  savePlaylist = () => {
+    const tracksURIs = this.state.playlistTrack.map(track => track.uri);
+  }
+
   render() {
     return (
       <div>
@@ -50,7 +55,7 @@ class App extends Component {
           <SearchBar />
           <div className="App-playlist">
             <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults} />
-            <Playlist onNameChange={this.updatePlaylistName} onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
+            <Playlist onNameChange={this.updatePlaylistName} onSave={this.savePlaylist} onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
           </div>
         </div>
       </div>
