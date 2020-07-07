@@ -48,8 +48,8 @@ class App extends Component {
   }
 
   // Arrow function for binding~
-  search = term => {
-    console.log(term);
+  search = searchTerm => {
+    console.log(searchTerm);
   }
 
   render() {
