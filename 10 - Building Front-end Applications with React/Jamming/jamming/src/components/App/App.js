@@ -37,6 +37,11 @@ class App extends Component {
     this.setState({playlistTracks: updatedPlaylistTracks});
   }
 
+  // Arrow function for binding~
+  updatePlaylistName = name => {
+    this.setState({playlistName: name});
+  }
+
   render() {
     return (
       <div>
@@ -45,7 +50,7 @@ class App extends Component {
           <SearchBar />
           <div className="App-playlist">
             <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults} />
-            <Playlist onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
+            <Playlist onNameChange={this.updatePlaylistName} onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
           </div>
         </div>
       </div>
