@@ -1,39 +1,32 @@
-import React, {Component} from "react";
+import React from "react";
 
 // Stylesheet
 import "./Track.css";
 
-class Track extends Component {
+function Track(props) {
 
-  renderAction() {
-    return(
-      <button className="Track-action" onClick={this.props.isRemoval ? this.removeTrack : this.addTrack}>
-        {this.props.isRemoval ? "-" : "+"}
+  const renderAction = () => {
+    return (
+      <button
+        className="Track-action"
+        onClick={props.isRemoval ? removeTrack : addTrack}>
+        {props.isRemoval ? "-" : "+"}
       </button>
     );
   }
 
-  // Arrow function for binding~
-  addTrack = () => {
-    this.props.onAdd(this.props.track);
-  }
+  const addTrack = () => { props.onAdd(props.track); }
+  const removeTrack = () => { props.onRemove(props.track) }
 
-  // Arrow function for binding~
-  removeTrack = () => {
-    this.props.onRemove(this.props.track)
-  }
-
-  render() {
-    return (
-      <div className="Track">
-        <div className="Track-information">
-          <h3>{this.props.track.name}</h3>
-          <p>{this.props.track.artist}| {this.props.track.album}</p>
-        </div>
-        <button className="Track-action">{this.renderAction()}</button>
+  return (
+    <div className="Track">
+      <div className="Track-information">
+        <h3>{props.track.name}</h3>
+        <p>{props.track.artist}| {props.track.album}</p>
       </div>
-    );
-  }
+      <button className="Track-action">{renderAction()}</button>
+    </div>
+  );
 
 }
 
