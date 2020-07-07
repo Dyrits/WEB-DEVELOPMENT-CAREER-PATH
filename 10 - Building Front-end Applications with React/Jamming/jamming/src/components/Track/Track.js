@@ -4,9 +4,6 @@ import React, {Component} from "react";
 import "./Track.css";
 
 class Track extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   renderAction() {
     return(

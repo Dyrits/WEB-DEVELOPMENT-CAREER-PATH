@@ -50,7 +50,9 @@ class App extends Component {
 
   // Arrow function for binding~
   search = searchTerm => {
-    this.setState({searchResults: Spotify.search(searchTerm)}) ;
+    Spotify.search(searchTerm).then(tracks => {
+      this.setState({searchResults:tracks})
+      });
   }
 
   render() {

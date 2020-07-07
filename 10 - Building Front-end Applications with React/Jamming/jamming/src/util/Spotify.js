@@ -3,7 +3,7 @@ let accessToken;
 
 const Spotify = {
   api: "https://api.spotify.com",
-  endpoint: "/v1/search?type=TRACK&q=",
+  endpoint: "/v1/search?type=track&q=",
 
   getAccessToken() {
     if (accessToken) { return accessToken; }
@@ -28,15 +28,15 @@ const Spotify = {
         if (!jsonResponse.tracks) {
           return [];
         } else {
-          return jsonResponse.tracks.map(track =>
-            ({
+          return jsonResponse.tracks.items.map(track => {
+            return {
               id: track.id,
               name: track.name,
               artist: track.artists[0].name,
-              album: track.album,
+              album: track.album.name,
               uri: track.uri
-            })
-          );
+            };
+          });
         }
       }
     )
