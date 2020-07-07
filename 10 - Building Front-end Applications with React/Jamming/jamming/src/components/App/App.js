@@ -7,6 +7,7 @@ import './App.css';
 import SearchBar from "../SearchBar/SearchBar";
 import SearchResults from "../SearchResults/SearchResults";
 import Playlist from "../Playlist/Playlist";
+import Spotify from "../../util/Spotify";
 
 class App extends Component {
   constructor(props) {
@@ -49,7 +50,7 @@ class App extends Component {
 
   // Arrow function for binding~
   search = searchTerm => {
-    console.log(searchTerm);
+    this.setState({searchResults: Spotify.search(searchTerm)}) ;
   }
 
   render() {
