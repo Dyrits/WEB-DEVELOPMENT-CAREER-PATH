@@ -14,10 +14,8 @@ class App extends Component {
     super(props);
     this.state = {
       searchResults: [],
-      playlistName: "PlayListTest",
-      playlistTracks: [
-        {name: "NameTest", artist: "ArtistTest", album: "AlbumTest", id: "IDTest", uri: "URITest"}
-      ]
+      playlistName: "",
+      playlistTracks: []
     }
   }
 
@@ -42,8 +40,10 @@ class App extends Component {
   }
 
   // Arrow function for binding~
-  savePlaylist = () => {
+  savePlaylist = async () => {
     const tracksURIs = this.state.playlistTracks.map(track => track.uri);
+    await Spotify.savePlaylist(this.state.playlistName, tracksURIs)
+    this.setState({playlistTracks: []});
   }
 
   // Arrow function for binding~

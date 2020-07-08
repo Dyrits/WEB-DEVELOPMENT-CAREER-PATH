@@ -22,12 +22,16 @@ Good luck!
 ### Details | Comments
 This project has been made from scratch following specific instructions. Several elements have been directly provided by the related course.
 
+
+### Deployment
+This project has been published on [surge](http://jamming-dyrits.surge.sh/).
+
 ### Status
-In progress (V0.88.3)
+Completed (V1.00.1)
 
 #### Last update
-06/07/2020
-(README | 06/07/2020)
+08/07/2020
+(README | 08/07/2020)
 
 ---
 
