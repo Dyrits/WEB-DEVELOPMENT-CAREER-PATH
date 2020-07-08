@@ -27,7 +27,7 @@ This project has been made from scratch following specific instructions. Several
 This project has been published on [surge](http://jamming-dyrits.surge.sh/).
 
 ### Status
-Completed (V1.00.1)
+Completed (V1.00.15)
 
 #### Last update
 08/07/2020
