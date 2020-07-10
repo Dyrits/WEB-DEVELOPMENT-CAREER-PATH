@@ -54,11 +54,18 @@ This project has been made from scratch following specific instructions. Several
 ### Changelog
 
 <details markdown="block">
-<summary>V1.02.01</summary>
+<summary>V1.02</summary>
 
 - The tracks added to the playlist are now removed from the search results.
 - The search results don't display the tracks already in the playlist anymore.
-- The tracks removed from the playlist are added at the top of the search results.
+- The tracks removed from the playlist are now added at the top of the search results.
+    
+</details>
+
+<details markdown="block">
+<summary>V1.02.05</summary>
+
+- The tracks removed from the playlist are not added at the top of search results anymore. Instead, an update of the search results occurs.
     
 </details>
 
@@ -67,7 +74,7 @@ This project has been made from scratch following specific instructions. Several
 This project has been published on [surge](http://jamming-dyrits.surge.sh/).
 
 ### Status
-Completed (V1.02.01)
+Completed (V1.02.05)
 
 #### Last update
 10/07/2020

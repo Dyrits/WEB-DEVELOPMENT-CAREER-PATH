@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, createRef} from 'react';
 
 // Stylesheet
 import './App.css';
@@ -17,6 +17,7 @@ class App extends Component {
       playlistName: "",
       playlistTracks: []
     }
+    this.SearchBar = React.createRef();
   }
 
   // Arrow function for binding~
@@ -38,10 +39,9 @@ class App extends Component {
     // Remove from playlist:
     let updatedPlaylistTracks = this.state.playlistTracks;
     updatedPlaylistTracks = updatedPlaylistTracks.filter(track => track.id !== trackToRemove.id);
-    // Add to search results:
-    let updatedSearchResults = this.state.searchResults;
-    updatedSearchResults.unshift(trackToRemove);
-    this.setState({searchResults: updatedSearchResults, playlistTracks: updatedPlaylistTracks});
+    // Update the search results:
+    this.SearchBar.current.search();
+    this.setState({playlistTracks: updatedPlaylistTracks});
   }
 
   // Arrow function for binding~
@@ -70,7 +70,7 @@ class App extends Component {
       <div>
         <h1>Ja<span className="highlight">mmm</span>ing</h1>
         <div className="App">
-          <SearchBar onSearch={this.search} />
+          <SearchBar ref={this.SearchBar} onSearch={this.search} />
           <div className="App-playlist">
             <SearchResults onAdd={this.addTrack} searchResults={this.state.searchResults} />
             <Playlist onNameChange={this.updatePlaylistName} onSave={this.savePlaylist} onRemove={this.removeTrack} playListName={this.state.playlistName} playlistTracks={this.state.playlistTracks} />
