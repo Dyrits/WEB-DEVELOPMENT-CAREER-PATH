@@ -22,16 +22,26 @@ class App extends Component {
   // Arrow function for binding~
   addTrack = trackToAdd => {
     if (this.state.playlistTracks.find(savedTrack => savedTrack.id === trackToAdd.id)) { return; }
+    // Remove from search results:
+    let updatedSearchResults = this.state.searchResults;
+    const indexToRemove = updatedSearchResults.indexOf(trackToAdd)
+    updatedSearchResults.splice(indexToRemove, 1);
+    // Add to playlist:
     let updatedPlaylistTracks = this.state.playlistTracks;
     updatedPlaylistTracks.push(trackToAdd);
-    this.setState({playlistTrack: updatedPlaylistTracks})
+    // Update component;
+    this.setState({searchResults: updatedSearchResults, playlistTrack: updatedPlaylistTracks})
   }
 
   // Arrow function for binding~
   removeTrack = trackToRemove => {
+    // Remove from playlist:
     let updatedPlaylistTracks = this.state.playlistTracks;
     updatedPlaylistTracks = updatedPlaylistTracks.filter(track => track.id !== trackToRemove.id);
-    this.setState({playlistTracks: updatedPlaylistTracks});
+    // Add to search results:
+    let updatedSearchResults = this.state.searchResults;
+    updatedSearchResults.unshift(trackToRemove);
+    this.setState({searchResults: updatedSearchResults, playlistTracks: updatedPlaylistTracks});
   }
 
   // Arrow function for binding~
@@ -49,7 +59,9 @@ class App extends Component {
   // Arrow function for binding~
   search = searchTerm => {
     Spotify.search(searchTerm).then(tracks => {
-      this.setState({searchResults:tracks})
+      const playlistTracksID = this.state.playlistTracks.map(track => track.id)
+      tracks = tracks.filter(track => !playlistTracksID.includes(track.id));
+      this.setState({searchResults: tracks})
       });
   }
 

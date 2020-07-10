@@ -4,9 +4,14 @@
 
 ### Related course
 [code]cademy / PRO | Web Development ~ 10. Building Front-end Applications with React  
-Jamming
+Jamming  
+Feature Request: Jammming
 
 ### Description (from [code]cademy / PRO)
+
+<details markdown="block">
+<summary>Jamming</summary>
+
 In this project, you will build a React web application called [Jammming](http://jammming.s3-website-us-east-1.amazonaws.com/). You will use your knowledge of React components, passing state, and requests with the Spotify API to build a website that allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
 
 We’ve broken the Jammming project into 13 sections. Each section contains a descriptive header with an introductory step followed by a set of steps that guide you to the outcome. The first step of each section will explain the goal and provide a brief overview of how we’ll accomplish it. Before you start the second step, try to plan how you would complete the section. As you finish the rest of the steps, reflect on how your solution compares to ours.
@@ -15,6 +20,30 @@ This is a long project, but we’ll be with you every step of the way. Whether y
 
 Good luck!
 
+</details>
+<details markdown="block">
+<summary>Feature Request: Jammming</summary>
+
+In this project, you will select a feature that you think should be added to your Jammming app. You will use this [technical design document template](https://docs.google.com/document/d/1QIBjLcNH5t7FrPwuC7jNnhE1JPmwskdB7U7z0OSeDsU/edit?usp=sharing) to lay out all of the necessary functionality of this feature, how the feature should be implemented, and why you chose that specific approach. This is an essential step in the development process, so we encourage you to think carefully and thoroughly about your feature and implementation as you work on this project.
+
+[Here is an example of a technical design document](https://docs.google.com/document/d/1bHEQvYYAwSpAkdpv7hp8eu-iMnvqYVS4UffCLKvaKGg/edit?usp=sharing) for implementing multiple playlists in Jammming. You should use it as a resource when deciding what level of information you should include in your design document.
+
+You can pick any feature you want for this project, but we have provided a list of potential options at the end of this article for inspiration. We can’t wait to see your cool new features and unique solutions!
+
+#### How to Get Started
+
+To start this project, you will need to make a copy of our [technical design document template](https://docs.google.com/document/d/1QIBjLcNH5t7FrPwuC7jNnhE1JPmwskdB7U7z0OSeDsU/edit?usp=sharing). Open the template in a new tab and then copy the file by selecting all of the content (by clicking and dragging over all of the content, or pressing Ctrl + A) and then pressing copy (by selecting the “Edit” tab and clicking “Copy”, or by pressing Ctrl + C). Then create a new document by navigating to docs.google.com and selecting “Start a New Document > Blank”. Finally, paste the contents of the template into the new document (by selecting the “Edit” tab and clicking “Paste”, or by pressing Ctrl + V). Update the name of the document to something descriptive, and you’ll be ready to work on your project.
+
+Potential Jammming Features:
+- Include preview samples for each track
+- Only display songs not currently present in the playlist in the search results
+- Add a loading screen while playlist is saving
+- Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search
+- After user redirect on login, restoring the search term from before the redirect
+- Ensure playlist information doesn’t get cleared if a user has to refresh their access token
+
+</details>
+
 ### Technologies | Frameworks
 - JavaScript
 - React
@@ -22,16 +51,27 @@ Good luck!
 ### Details | Comments
 This project has been made from scratch following specific instructions. Several elements have been directly provided by the related course.
 
+### Changelog
+
+<details markdown="block">
+<summary>V1.02.01</summary>
+
+- The tracks added to the playlist are now removed from the search results.
+- The search results don't display the tracks already in the playlist anymore.
+- The tracks removed from the playlist are added at the top of the search results.
+    
+</details>
+
 
 ### Deployment
 This project has been published on [surge](http://jamming-dyrits.surge.sh/).
 
 ### Status
-Completed (V1.00.15)
+Completed (V1.02.01)
 
 #### Last update
-08/07/2020
-(README | 08/07/2020)
+10/07/2020
+(README | 10/07/2020)
 
 ---
 
