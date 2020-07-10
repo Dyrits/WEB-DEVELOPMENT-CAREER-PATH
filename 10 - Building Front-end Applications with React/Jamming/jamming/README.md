@@ -5,7 +5,7 @@
 ### Related course
 [code]cademy / PRO | Web Development ~ 10. Building Front-end Applications with React  
 Jamming  
-Feature Request: Jammming
+[Feature Request: Jammming](https://www.codecademy.com/paths/web-development/tracks/front-end-applications-with-react/modules/jammming/projects/feature-request-prj)
 
 ### Description (from [code]cademy / PRO)
 
