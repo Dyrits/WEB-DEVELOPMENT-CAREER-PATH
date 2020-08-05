@@ -1,0 +1,121 @@
+body {
+  background-color: #000;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.flex {display: flex;}
+
+/* HEADER */
+
+header {
+  position: fixed;
+  top: 0px;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+#logo img {height: 50px;}
+header ul {justify-content: space-evenly;}
+
+header ul>li {
+  text-decoration: underline;
+  display: inline-flex;
+  margin: 0 10px;
+  cursor: not-allowed;
+}
+
+
+/* MAIN */
+
+main {margin-top: 69px;}
+
+/* FIRST ARTICLE */
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  align-items: center;
+}
+
+#mission section {
+  background-color: #000;
+  width: 100%;
+  align-items: center;
+}
+
+/* SECOND ARTICLE */
+
+#tea-month {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#tea-month section {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#tea-month section figure {
+  margin: 20px 10px;
+}
+
+#tea-month section figure>img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* THIRD ARTICLE */
+
+#locations {
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#locations h2 {
+  padding-top: 60px;
+  margin-bottom: 15px;
+}
+#locations section {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#locations section div {
+  width: 300px;
+  margin: 0 20px;
+  background-color: #000;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+
+/* FOOTER */
+
+footer section:first-of-type {
+  height: 200px;
+  margin-top: 0;
+}
+
+footer section:first-of-type>h2 {margin-top: 10px;}
+
+#copyright {
+  margin-top: 20px;
+  text-align: left;
+}
+
