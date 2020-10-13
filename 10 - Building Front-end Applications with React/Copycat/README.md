@@ -1,4 +1,4 @@
-# Copycat
+# [Copycat](https://www.codecademy.com/paths/web-development/tracks/front-end-applications-with-react/modules/react-102-advanced-react-u/projects/copycat)
 
 ## About this project
 
