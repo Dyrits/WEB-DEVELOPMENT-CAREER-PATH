@@ -17,7 +17,7 @@ Let’s get started!
 - React
 
 ### Details | Comments
-Albeit this project has been made following specific instructions, differents scipts (CDN) have been used instead of the bundle provided by [code]cademy / PRO.  
+Albeit this project has been made following specific instructions, different scripts (CDN) have been used instead of the bundle provided by [code]cademy / PRO.  
 The `export` and `import` syntax used with React is not being used in this project, the scripts being all loaded directly in the `index.html` file.  
 Hooks have been used.
 
