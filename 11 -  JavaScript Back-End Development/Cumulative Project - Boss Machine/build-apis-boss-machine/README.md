@@ -1,7 +1,5 @@
 # [Cumulative Project: Boss Machine](https://www.codecademy.com/paths/web-development/tracks/javascript-back-end-development/modules/express-cumulative-project/informationals/bapi-p4-boss-machine)
 
-![](https://content.codecademy.com/programs/build-apis/solution-videos/BossMachine480.mov)
-
 ## About this project
 
 ### Related course
