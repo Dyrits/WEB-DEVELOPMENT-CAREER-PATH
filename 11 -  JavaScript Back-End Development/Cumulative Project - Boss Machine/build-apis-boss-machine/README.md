@@ -1,4 +1,34 @@
-# Boss Machine
+# [Cumulative Project: Boss Machine](https://www.codecademy.com/paths/web-development/tracks/javascript-back-end-development/modules/express-cumulative-project/informationals/bapi-p4-boss-machine)
+
+![](https://content.codecademy.com/programs/build-apis/solution-videos/BossMachine480.mov)
+
+## About this project
+
+### Related course
+[code]cademy / PRO | Web Development  
+JavaScript Back-End Development ~ Express Cumulative Project
+
+### Technologies | Tools
+- Node
+    - Express
+
+### Details | Comments
+Description and details about this project can be found below.
+
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please make sure to update tests as appropriate (if any).
+
+### Status
+Completed
+
+#### Last update
+06/11/2020
+(README | 06/11/2020)
+  
+---
+
+# Boss Machine (by [code]cademy / PRO)
 
 ## Project Overview
 
