@@ -12,6 +12,9 @@ SQL and Databases for Web Development ~ Project: Gold Medal Metrics
 ### Details | Comments
 Description and details about this project can be found below.
 
+#### Issues
+Albeit the test are passing correctly, the webpage doesn't render any data.
+
 ### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 Please make sure to update tests as appropriate (if any).
