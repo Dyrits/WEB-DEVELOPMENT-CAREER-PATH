@@ -7,8 +7,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,5 +29,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "typescript": "4.9.5",
+    "@testing-library/dom": "9.3.4"
+  },
+  "overrides": {
+    "node-releases": "2.0.44",
+    "postcss-load-config": "4.0.2"
   }
 }
