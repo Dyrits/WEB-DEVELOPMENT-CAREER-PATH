@@ -3,21 +3,22 @@
 const webpack = require('webpack'); // eslint-disable-line no-unused-vars
 
 module.exports = {
+  mode: 'production',
   entry: './browser/index.js',
   output: {
     path: __dirname,
-    filename: './public/js/bundle.js',
+    filename: 'public/js/bundle.js',
   },
   context: __dirname,
   devtool: 'source-map',
   module: {
-    loaders: [
+    rules: [
       {
         test: /jsx?$/,
-        exclude: new RegExp('node_modules/(?!axios/)'), 
+        exclude: /node_modules/, 
         loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'stage-2'],
+        options: {
+          presets: ['@babel/preset-react', ['@babel/preset-env', {targets: 'defaults'}]],
         }
       }
     ]
