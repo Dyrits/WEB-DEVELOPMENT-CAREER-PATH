@@ -67,8 +67,8 @@ class SearchBar extends Component {
           <input onChange={this.handleTermChange} placeholder="Search Businesses"/>
           <input onChange={this.handleLocationChange} placeholder="Where?"/>
         </div>
-        <div onClick={this.handleSearch} className="SearchBar-submit">
-          <a>Let's Go</a>
+        <div className="SearchBar-submit">
+          <button type="button" onClick={this.handleSearch}>Let's Go</button>
         </div>
       </div>
     )

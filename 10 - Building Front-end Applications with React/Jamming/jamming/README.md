@@ -152,3 +152,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## Local configuration
+
+Use Node 16.20.2 and npm 8. Copy `src/util/SpotifyAppSettings.example.js` to `src/util/SpotifyAppSettings.js` before building. The local file is ignored by git. Empty example values allow an offline build, but the external service requires your own application settings. Never commit real credentials.
+
+Run `npm ci`, then `CI=true npm run build`.

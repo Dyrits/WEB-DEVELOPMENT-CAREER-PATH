@@ -14,7 +14,7 @@ module.exports = {
     loaders: [
       {
         test: /jsx?$/,
-        exclude: /(node_modules|bower_components)/,
+        exclude: new RegExp('node_modules/(?!axios/)'), 
         loader: 'babel-loader',
         query: {
           presets: ['react', 'es2015', 'stage-2'],
